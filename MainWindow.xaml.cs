@@ -24,5 +24,11 @@ namespace wpf
         {
             InitializeComponent();
         }
+
+        /// define a behavior of click
+        void button_click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello world");
+        }
     }
 }

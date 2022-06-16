@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Hongs-first-win-app-after-so-many-years" Height="450" Width="800">
     <Grid>
+        <Button Name = "button" Click = "button_click">don't click</Button>
 
     </Grid>
 </Window>
